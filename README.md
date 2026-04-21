@@ -2,7 +2,7 @@
 Overmind is a LaTeX-based resume workflow for creating a clean base resume and generating role-specific variants quickly. It is designed for iterative editing in Cursor/VS Code, ATS-oriented tuning, and reproducible PDF output (`resume.pdf`) from source files in this repository.
 
 The recommended workflow is:
-- maintain a stable, generic base resume on `main`
+- maintain a stable, generic base resume on `master`
 - create job-description-specific branches for tailored versions
 - keep each branch focused on one target role/company so updates are easy to track and reuse
 
@@ -12,7 +12,7 @@ The recommended workflow is:
 1. Fork this repository to your own GitHub account (recommended) so you own your resume history and customizations.
 2. Clone your fork locally:
 	- `git clone https://github.com/<your-username>/overmind.git`
-3. Keep your base resume on `main`, then create one branch per job description:
+3. Keep your base resume on `master`, then create one branch per job description:
 	- `git checkout -b jd-<company>-<role>`
 	- Example: `git checkout -b jd-acme-backend-engineer`
 4. Install the necessary extensions and packages for your operating system. 
